@@ -1,0 +1,30 @@
+@import '../../../sass/abstracts/variables.scss';
+
+.Data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__Row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 1.5rem;
+
+        &__Name {
+            color: $color-alert;
+        }
+
+        &__Desc {
+            color: $color-quaduprary;
+        }
+
+    }
+
+}
+
+@media (max-width: $max-width-medium-res) {
+    .Data__Row {
+        font-size: $text-small;
+    }
+}

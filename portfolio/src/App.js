@@ -1,5 +1,17 @@
 import './App.css';
 
+/*
+#000055
+#7CB4C5
+#01829B
+#334A52
+
+#810209
+#7B7485
+#AFA8BA
+#000055
+*/
+
 import React, { Suspense } from 'react';
 import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
 import Layout from './hoc/Layout/Layout';

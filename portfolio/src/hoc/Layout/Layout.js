@@ -19,12 +19,12 @@ const Layout = props => {
     
     return (
         <Auxiliary>
-            <Toolbar 
+            <Toolbar
                 drawerToggleClicked={sideDrawerToggleHandler}
             />
             <SideDrawer 
                 
-                open={sideDrawerIsVisible} 
+                open={sideDrawerIsVisible}
                 
                 closed={sideDrawerClosedHandler}
             />
