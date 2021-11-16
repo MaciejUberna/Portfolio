@@ -1,0 +1,27 @@
+@import '../../../../sass/abstracts/variables.scss';
+
+.DrpDwn {
+    height: 100%;
+    position: absolute;
+    
+    &__Menu {
+        background-color: $color-secondary-light;
+        opacity: 1 !important;
+        pointer-events: auto !important;
+    }
+
+    &__ArrowDown {
+        font-size: 1.2rem;
+    }
+
+    &__Item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__Svg{
+        height: 1.2rem;
+    }
+}
