@@ -29,7 +29,7 @@ const Toolbar = props => {
             <header className={classes.Toolbar}>
                 <DrawerToggle clicked={props.drawerToggleClicked}/>
                 <nav className={classes.DesktopOnly}>
-                    <NavigationItems/>
+                    <NavigationItems languageSwitcherType="dropdown" />
                 </nav>
                 <div className={classes.Logo}>
                     <Logo />
