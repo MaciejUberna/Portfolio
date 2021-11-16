@@ -15,9 +15,10 @@ import './App.css';
 import React, { Suspense } from 'react';
 import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
 import Layout from './hoc/Layout/Layout';
-import Edukacja from './containers/Edukacja/Edukacja';
-import Doswiadczenie from './containers/Doswiadczenie/Doswiadczenie';
-import Projekty from './containers/Projekty/Projekty';
+import Edukacja from './coponents-stateLess/Content/Edukacja/Edukacja';
+import Doswiadczenie from './coponents-stateLess/Content/Doswiadczenie/Doswiadczenie';
+import Projekty from './coponents-stateLess/Content/Projekty/Projekty';
+import LanguageContext from './mainStates/language/language-context';
 
 function App() {
 
@@ -32,9 +33,15 @@ function App() {
   );
 
   return (
-    <Layout>
-      <Suspense fallback={<p>Loading ...</p>}>{routes}</Suspense>
-    </Layout>
+    <LanguageContext.Provider
+      value={{
+        language: 'xx'
+      }}
+    >
+      <Layout>
+        <Suspense fallback={<p>Loading ...</p>}>{routes}</Suspense>
+      </Layout>
+    </LanguageContext.Provider>
   );
 };
 
