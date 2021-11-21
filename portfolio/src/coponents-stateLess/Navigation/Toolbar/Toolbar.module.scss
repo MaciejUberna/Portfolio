@@ -75,14 +75,14 @@
     padding: 0 20px;
     box-sizing: border-box;
     z-index: 90;
-}
 
-.Toolbar nav {
-    height: 100%;
-}
+    & nav {
+        height: 100%;
+    }
 
-.Toolbar .Logo {
-    display: none;
+    & .Logo {
+        display: none;
+    }
 }
 
 @media (max-width: $max-width-intermediate-res) {
