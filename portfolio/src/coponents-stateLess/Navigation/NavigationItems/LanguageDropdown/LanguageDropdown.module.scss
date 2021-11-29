@@ -4,7 +4,7 @@
 .menu {
     border-radius: $round-small;
     position: relative;
-    width: 8rem;
+    width: $menu-button-width;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
     opacity: 1;
     visibility: visible;
@@ -79,8 +79,12 @@
         height: 1.2rem;
     }
 
-    &_arrow {
-        font-size: 1.2rem;
+    &_triangle {
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;       
+        border-top: 10px solid white;
     }
 
     &_svg_text {
