@@ -14,6 +14,11 @@ import {ReactComponent as EN} from './assets/images/flags/gb.svg';
 import {ReactComponent as ES} from './assets/images/flags/es.svg';
 import {ReactComponent as Unknown} from './assets/images/flags/xx.svg';
 
+import ProjPL from './assets/texts/Projekty/projects_PL';
+import ProjEN from './assets/texts/Projekty/projects_EN';
+import ProjES from './assets/texts/Projekty/projects_ES';
+import ProjXX from './assets/texts/Projekty/projects_XX';
+
 function App() {
 
   const [myValue, setMyValue] = useState({
@@ -32,6 +37,12 @@ function App() {
         },
         'mainInfo' : mainInfo,
         'mainMenu' : mainMenu,
+        'projects' : {
+          'pl': ProjPL,
+          'en': ProjEN,
+          'es': ProjES,
+          'xx': ProjXX 
+        }
   })
 
   let routes = (
@@ -45,7 +56,7 @@ function App() {
   );
 
   const setLang = e => {
-    const tmp = {...myValue, language: e}
+    const tmp = {...myValue, language: e};
     setMyValue(tmp);
     //console.log('Lang set to: ',tmp);
   };
