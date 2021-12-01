@@ -2,7 +2,7 @@
 //@import '../../../sass/base/base.scss';
 
 .GeneralInfo {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     height:30vh;
@@ -67,7 +67,8 @@
 .Toolbar {
     height: 40px;
     width: 100vw;
-    position: relative;
+    top: 30vh;
+    position: fixed;
     background-color: $color-secondary-light;
     display: flex;
     justify-content: center;
