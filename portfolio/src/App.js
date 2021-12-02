@@ -19,6 +19,14 @@ import ProjEN from './assets/texts/Projekty/projects_EN';
 import ProjES from './assets/texts/Projekty/projects_ES';
 import ProjXX from './assets/texts/Projekty/projects_XX';
 
+import eduPL from './assets/texts/Edukacja/education_PL';
+import eduEN from './assets/texts/Edukacja/education_EN';
+import eduES from './assets/texts/Edukacja/education_ES';
+import eduXX from './assets/texts/Edukacja/education_XX';
+
+import ISTQBcert from './assets/images/Education/istqb2015.jpg';
+import PJWSTKdiploma from './assets/images/Education/dyplomPJWSTK.jpg';
+
 function App() {
 
   const [myValue, setMyValue] = useState({
@@ -42,6 +50,20 @@ function App() {
           'en': ProjEN,
           'es': ProjES,
           'xx': ProjXX 
+        },
+        'education': {
+          'pl': [{...eduPL[0],'Certyfikat ISTQB':ISTQBcert},
+                  {...eduPL[1],'Dyplom Magistra': PJWSTKdiploma},
+              ],
+          'en': [{...eduEN[0],'ISTQB certyficate':ISTQBcert},
+                  {...eduEN[1],'Diploma': PJWSTKdiploma},
+            ],
+          'es': [{...eduES[0],'ISTQB certificado':ISTQBcert},
+                  {...eduES[1],'Diploma': PJWSTKdiploma},
+              ],
+          'xx': [{...eduXX[0],'ISTQB hurra!':ISTQBcert},
+                  {...eduXX[1],'Papier': PJWSTKdiploma},
+          ]
         }
   })
 
