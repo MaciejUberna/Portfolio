@@ -11,7 +11,7 @@ export default [{
     {
         'Zawadzadło': 'Portafolio',
         'PyrPyr': 'React, javascript, sass',
-        'Zmyśliny': 'Lorem filet mignon anim pork loin laboris tongue pork belly.fatback tongue reprehenderit ball tip pig shankle burgdoggen id flank',
+        'Zmyśliny': 'Lorem filet mignon anim pork loin laboris tongue pork belly. Fatback tongue reprehenderit ball tip pig shankle burgdoggen id flank',
         'konto smakowe': 'lag',
         'Link': '-------',
         'GithubSSH': 'git@github.com:MaciejUberna/Portfolio.git',
@@ -29,7 +29,7 @@ export default [{
     },{
         'Zawadzadło': 'Trillo',
         'PyrPyr': 'sass',
-        'Zmyśliny': 'Dolor tenderloin tongue, ut reprehenderit venison rumpIn laborum velit duis.Elit deserunt officia bresaola laborum aliquip.',
+        'Zmyśliny': 'Dolor tenderloin tongue, ut reprehenderit venison rumpIn laborum velit duis. Elit deserunt officia bresaola laborum aliquip.',
         'konto smakowe': 'lag',
         'Link': 'lago',
         'GithubSSH': 'git@github.com:MaciejUberna/Trillo.git',
