@@ -20,7 +20,6 @@
             rgba($color-primary,1),
             rgba($color-secondary-light,1)
         );
-    ;
     }
 
     &__photoContainer {
@@ -114,6 +113,7 @@
 
     .Toolbar {
         justify-content: space-between;
+        top: 40vh;
     }
 
     .Toolbar .Logo {
@@ -125,14 +125,10 @@
         display: none;
     }
 
-    .GeneralInfo {
-        height: 60vh;
-    }
-
     .GeneralInfo__infoContainer {
-        top: 30vh;
+        top: 20vh;
         left: 0;
-        height: 30vh;
+        height: 20vh;
         width: 100vw;
     }
 
@@ -147,7 +143,7 @@
     .GeneralInfo__photoContainer {
         left: 0;
         top: 0;
-        height: 30vh;
+        height: 20vh;
         width: 100vw;
     }
 }

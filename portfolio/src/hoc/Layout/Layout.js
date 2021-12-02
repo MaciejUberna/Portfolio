@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Auxiliary from '../Auxiliary/Auxiliary';
-import classes from './Layout.module.css';
+import classes from './Layout.module.scss';
 import Toolbar from '../../coponents-stateLess/Navigation/Toolbar/Toolbar';
 import SideDrawer from '../../coponents-stateLess/Navigation/SideDrawer/SideDrawer';
 
