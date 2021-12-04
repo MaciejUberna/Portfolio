@@ -1,0 +1,86 @@
+@import '../../../sass/abstracts/variables.scss';
+
+.Main {
+    width: 100vw;
+    height: auto;
+    background-image: url(../../../assets/images/Education/Academics2.jpg);
+
+    & h2 {
+        color: $color-tertiary;
+    }
+
+    &_Container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,min-max(15rem,1fr));
+
+        &_ul {
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        &_Name {
+            color: $color-alert;
+        }
+    
+        &_Desc {
+            color: $color-tertiary;
+            font-size: $text-small;
+        }
+
+        &_GrCap {
+            z-index: -1;
+            width: 1.5rem;
+            filter: $filter-main;
+        }
+
+        &_Diploma  {
+            &_Title {
+                font-size: $text-small;
+                align-content: center;
+                color: $color-tertiary;
+            }
+
+            & img {
+                width: 40rem;
+                height: auto;
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: $max-width-medium-res) {
+    .Main {
+        &_Container {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: flex-start;
+            
+            &_Diploma  {
+                & img {
+                    width: 27rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $max-width-small-res) {
+    .Main {
+        &_Container {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: flex-start;
+            
+            &_Diploma  {
+                & img {
+                    width: 20rem;
+                }
+            }
+        }
+    }
+}
