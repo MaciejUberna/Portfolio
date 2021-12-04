@@ -1,12 +1,12 @@
 export default [
     {
         "start-date":"12.2021",
-        "end-date":"continues...",
-        "date-interval": "continues...",
+        "end-date":"tratata...",
+        "date-interval": "tratata...",
         "company":"Muzofilia",
-        "job-position" : "Especialista en promoción (trabajo regular)",
+        "job-position" : "",
         "localization":"Internet",
-        "job-desc": "Publicidad de la escuela de música Muzofilia en las redes sociales, anuncios de goole y otros medios.",
+        "job-desc": "Jumping zebras vex. Two driven jocks help fax my big quiz.",
         "git" : ""       
     },
     {
@@ -16,17 +16,17 @@ export default [
         "company":"Muzofilia",
         "job-position" : "Marketing specialist intership",
         "localization":"Internet",
-        "job-desc": "Publicidad de la escuela de música Muzofilia en redes sociales y otros.",
+        "job-desc": "Five quacking zephyrs jolt my wax bed. Flummoxed by job, kvetching W. zaps Iraq.",
         "git" : ""
     },
     {
         "start-date":"02.2020",
         "end-date":"04.2021",
         "date-interval": "[14 meses]",
-        "company":"ninguna",
+        "company":"none",
         "job-position" : "Covid-19 descanso",
-        "localization":"Hogar",
-        "job-desc": "Esperando durante la pandemia por la vacuna.",
+        "localization":"xl",
+        "job-desc": "Quick brown dogs jump over the lazy fox. The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump. Joaquin Phoenix was gazed by MTV for luck.",
         "git" : ""
     },
     {
@@ -34,19 +34,19 @@ export default [
         "end-date":"02.2020",
         "date-interval": "[2 meses]",
         "company":"Udemy (Internet)",
-        "job-position" : "alumna (Udemy)",
+        "job-position" : "studento (Udemy)",
         "localization":"Internet",
-        "job-desc": "3 aplicaciones de prueba realizadas con tecnología Ajax y  React-Router-DOM.",
+        "job-desc": "The jay, pig, fox, zebra, and my wolves quack! Blowzy red vixens fight for a quick jump..",
         "git" : "https://github.com/MaciejUberna/BlogHttpRequestsTest.git"
     },
     {
         "start-date":"03.2019",
         "end-date":"12.2019",
         "date-interval": "[10 meses]",
-        "job" : "alumna (Udemy)",
+        "job" : "studento (Udemy)",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job-desc": "Aplicación ficticia de pedidos de hamburguesas realizada en javascript y react router / redux.",
+        "job-desc": "Phyrs blow, vexing daft Jim. Sex-charged fop blew my junk TV quiz. How quickly daft jumping zebras vex.",
         "git" : "https://github.com/MaciejUberna/BurgerWWWapp.git"
     },
     {
@@ -55,8 +55,8 @@ export default [
         "date-interval": "[4 meses]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "alumna (Udemy)",
-        "job-desc": "Creación de un esquema CSS 3.0 usando Sass y Gulp. Ejercicio de css grid. Realizado el esquema CSS de una empresa de venta de bienes raíces ficticia.",
+        "job" : "studento (Udemy)",
+        "job-desc": "Alex Trebek's fun TV quiz game.",
         "git" : "https://github.com/MaciejUberna/Nexter"
     },
     {
@@ -65,8 +65,8 @@ export default [
         "date-interval": "[3 meses]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "alumna (Udemy)",
-        "job-desc": "Creación de un esquema CSS 3.0 usando Sass y Gulp. Ejercicio de css 3.0 - flexbox. Realizado el esquema CSS 3.0 de una empresa hotelera ficticia.",
+        "job" : "studento (Udemy)",
+        "job-desc": "Five quacking zephyrs jolt my wax bed.",
         "git":"https://github.com/MaciejUberna/Trillo"
     },
     {
@@ -75,8 +75,8 @@ export default [
         "date-interval": "[6 meses]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "alumna (Udemy)",
-        "job-desc": "Creación de un esquema CSS 3.0 usando Sass y Gulp. Realicé el esquema CSS 3.0 de una compañía de viajes ficticia y algunas animaciones CSS en otder para hacer que la compañía se vea mejor.",
+        "job" : "studento (Udemy)",
+        "job-desc": "Woven silk pyjamas exchanged for blue quartz. Brawny gods just.",
         "git":"https://github.com/MaciejUberna/Naturomaniacy"
     },
     {
@@ -86,7 +86,7 @@ export default [
         "company":"StepStone Services Sp. z o.o.",
         "localization":"Varsovia",
         "job":"Ingeniero de pruebas automatizadas",
-        "job-desc":"Desarrollo de pruebas automatizadas para aplicaciones Android e  IOS.",
+        "job-desc":"Have a pick: twenty six letters - no forcing a jumbled quiz!.",
         "git":""
     },
     {
@@ -95,8 +95,8 @@ export default [
         "date-interval": "[32 months]",
         "company":"Orange Poland",
         "localization":"Varsovia",
-        "job":"Ingeniero de pruebas manual y automatizado.",
-        "job-desc":"Probador de software móvil (Android) e Internet.",
+        "job":"Five quacking zephyrs jolt my wax bed.",
+        "job-desc":"Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.",
         "git":""
     },
     {
@@ -105,8 +105,8 @@ export default [
         "date-interval": "[48 months]",
         "company":"Orange Poland",
         "localization":"Varsovia",
-        "job":"Ingeniero de software de internet",
-        "job-desc":"Configuración de instalación de IVR - reconocimiento de voz (idioma polaco).",
+        "job":"Junk MTV quiz graced by fox whelps.",
+        "job-desc":"Sixty zippers were quickly picked from the woven jute bag.",
         "git":""
     }
 ];

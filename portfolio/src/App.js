@@ -24,6 +24,12 @@ import eduEN from './assets/texts/Edukacja/education_EN';
 import eduES from './assets/texts/Edukacja/education_ES';
 import eduXX from './assets/texts/Edukacja/education_XX';
 
+import expPL from './assets/texts/Doswiadczenie/experience_PL';
+import expEN from './assets/texts/Doswiadczenie/experience_EN';
+import expES from './assets/texts/Doswiadczenie/experience_ES';
+import expXX from './assets/texts/Doswiadczenie/experience_XX';
+import expConvert from './assets/texts/Doswiadczenie/conversion';
+
 import ISTQBcert from './assets/images/Education/istqb2015.jpg';
 import PJWSTKdiploma from './assets/images/Education/dyplomPJWSTK.jpg';
 
@@ -64,7 +70,14 @@ function App() {
           'xx': [{...eduXX[0],'ISTQB hurra!':ISTQBcert},
                   {...eduXX[1],'Papier': PJWSTKdiploma},
           ]
-        }
+        },
+        'job_exp' : {
+          'pl': expPL,
+          'en': expEN,
+          'es': expES,
+          'xx': expXX
+        },
+        'conv': expConvert
   })
 
   let routes = (
