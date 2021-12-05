@@ -3,7 +3,7 @@ import languageContext from '../../../mainStates/language/language-context';
 import GrCap from '../../../assets/images/Education/graduation-cap.svg';
 import cls from './Edukacja.module.scss';
 
-const Edukacja = (props) => {
+const Edukacja = () => {
     const lctx = useContext(languageContext);
     const [lang,setLang] = useState(lctx.x.language);
 
