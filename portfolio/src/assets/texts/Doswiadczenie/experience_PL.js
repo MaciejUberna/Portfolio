@@ -2,7 +2,7 @@ export default [
     {
         "start-date":"12.2021",
         "end-date":"do teraz",
-        "date-interval": "trwa",
+        "date-interval": "trwa...",
         "company":"Muzofilia",
         "job-position" : "Specjalista ds. promocji (umowa o pracę)",
         "localization":"Internet",

@@ -2,7 +2,7 @@ export default [{
         'Nombre del proyecto': 'Mój Burger',
         'Tecnologias': 'React, javascript, css',
         'Descripción': 'Solicitud escrita en polaco ficticia de venta de hamburguesas, que permite elegir su propia receta de hamburguesas. Si ya tiene una cuenta, haga clic en "Zmień na Zalogój".',
-        'Cuenta de prueba': 'acceso: tmp100tmp@sharklasers.com contraseña: Burger2021#. Servicio que puede cambiar la contraseña:https://www.guerrillamail.com/',
+        'Cuenta de prueba': 'acceso: tmp100tmp@sharklasers.com contraseña: Burger2021#. Servicio que puede cambiar la contraseña: https://www.guerrillamail.com/',
         'Enlace': 'https://maciej-my-burger.web.app',
         'GithubSSH': 'git@github.com:MaciejUberna/BurgerWWWapp.git',
         'GithubHTML': 'https://github.com/MaciejUberna/BurgerWWWapp.git',

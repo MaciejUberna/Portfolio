@@ -1,10 +1,10 @@
 export default [
     {
         "start-date":"12.2021",
-        "end-date":"continues...",
-        "date-interval": "continues...",
+        "end-date":"continúa...",
+        "date-interval": "continúa...",
         "company":"Muzofilia",
-        "job-position" : "Especialista en promoción (trabajo regular)",
+        "job-position" : "Especialista en promoción (contrato de empleo)",
         "localization":"Internet",
         "job-desc": "Publicidad de la escuela de música Muzofilia en las redes sociales, anuncios de goole y otros medios.",
         "git" : ""       
@@ -14,7 +14,7 @@ export default [
         "end-date":"11.2021",
         "date-interval": "[6 meses]",
         "company":"Muzofilia",
-        "job-position" : "Marketing specialist intership",
+        "job-position" : "Especialista en marketing (pasantía)",
         "localization":"Internet",
         "job-desc": "Publicidad de la escuela de música Muzofilia en redes sociales y otros.",
         "git" : ""
@@ -83,7 +83,7 @@ export default [
         "start-date":"10.2015",
         "end-date":"03.2018",
         "date-interval": "10.2015 - 03.2018 [29 meses]",
-        "company":"StepStone Services Sp. z o.o.",
+        "company":"StepStone Services Limitado.",
         "localization":"Varsovia",
         "job":"Ingeniero de pruebas automatizadas",
         "job-desc":"Desarrollo de pruebas automatizadas para aplicaciones Android e  IOS.",

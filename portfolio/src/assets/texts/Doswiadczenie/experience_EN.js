@@ -4,7 +4,7 @@ export default [
         "end-date":"continues...",
         "date-interval": "continues...",
         "company":"Muzofilia",
-        "job-position" : "Marketing specialist (regular job)",
+        "job-position" : "Marketing specialist (contract of employment)",
         "localization":"Internet",
         "job-desc": "Advertising Muzofilia music school in social media, goole ads and other media.",
         "git" : ""       
@@ -14,7 +14,7 @@ export default [
         "end-date":"11.2021",
         "date-interval": "[6 mongths]",
         "company":"Muzofilia",
-        "job-position" : "Marketing specialist intership",
+        "job-position" : "Marketing specialist (intership)",
         "localization":"Internet",
         "job-desc": "Advertising Muzofilia music school in social media and others.",
         "git" : ""
@@ -83,7 +83,7 @@ export default [
         "start-date":"10.2015",
         "end-date":"03.2018",
         "date-interval": "10.2015 - 03.2018 [29 mongths]",
-        "company":"StepStone Services Sp. z o.o.",
+        "company":"StepStone Services Ltd.",
         "localization":"Warsaw",
         "job":"Automated Tests Engineer",
         "job-desc":"Developing automated tests for Android and IOS applications.",
