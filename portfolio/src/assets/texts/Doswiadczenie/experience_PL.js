@@ -43,7 +43,7 @@ export default [
         "start-date":"03.2019",
         "end-date":"12.2019",
         "date-interval": "[10 mies.]",
-        "job" : "student (Udemy)",
+        "job-position" : "student (Udemy)",
         "company":"Udemy (Internet)",
         "localization":"Internet",
         "job-desc": "Fikcyjna aplikacja do zamawiania burgerów napisana w javascript react router / redux",
@@ -55,7 +55,7 @@ export default [
         "date-interval": "[4 mies.]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "student (Udemy)",
+        "job-position" : "student (Udemy)",
         "job-desc": "Tworzenie szablonu www w css 3.0 , Sass i Gulp. Ćwiczenia z css 3.0 - css grid, szablon fikcyjnej strony sprzedaży nieruchomości. ",
         "git" : "https://github.com/MaciejUberna/Nexter"
     },
@@ -65,7 +65,7 @@ export default [
         "date-interval": "[3 mies.]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "student (Udemy)",
+        "job-position" : "student (Udemy)",
         "job-desc": "Tworzenie szablonu www w css 3.0 , Sass i Gulp. Ćwiczenia z css 3.0 - flexbox, szablon fikcyjnej strony wynajmu pokoi hotelowych",
         "git":"https://github.com/MaciejUberna/Trillo"
     },
@@ -75,7 +75,7 @@ export default [
         "date-interval": "[6 mies.]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "student (Udemy)",
+        "job-position" : "student (Udemy)",
         "job-desc": "Tworzenie szablonu www w css 3.0 , Sass i Gulp. Szablon css www fikcyjnej firmy turystycznej, animacje w css.",
         "git":"https://github.com/MaciejUberna/Naturomaniacy"
     },
@@ -85,7 +85,7 @@ export default [
         "date-interval": "[29 mies.]",
         "company":"StepStone Services Sp. z o.o.",
         "localization":"Warszawa",
-        "job":"Inżynier testów automatycznych",
+        "job-position":"Inżynier testów automatycznych",
         "job-desc":"Tester manualny i automatyczny oprogramowania mobilnego (Android i IOS)",
         "git":""
     },
@@ -95,7 +95,7 @@ export default [
         "date-interval": "[32 mies.]",
         "company":"Orange Polska",
         "localization":"Warszawa",
-        "job":"Inżynier testów automatycznych",
+        "job-position":"Inżynier testów automatycznych",
         "job-desc":"Teastowanie oprogramowania mobilnego: Android i internetowego (selenium)",
         "git":""
     },
@@ -105,7 +105,7 @@ export default [
         "date-interval": "[48 mies.]",
         "company":"Orange Polska",
         "localization":"Warszawa",
-        "job":"Programista Rozwiązań Internetowych",
+        "job-position":"Programista Rozwiązań Internetowych",
         "job-desc":"Programowanie systemów IVR - rozpoznawanie mowy w języku polskim",
         "git":""
     }

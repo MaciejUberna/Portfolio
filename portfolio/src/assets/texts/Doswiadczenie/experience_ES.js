@@ -34,7 +34,7 @@ export default [
         "end-date":"02.2020",
         "date-interval": "[2 meses]",
         "company":"Udemy (Internet)",
-        "job-position" : "alumna (Udemy)",
+        "job-position" : "Alumna (Udemy)",
         "localization":"Internet",
         "job-desc": "3 aplicaciones de prueba realizadas con tecnología Ajax y  React-Router-DOM.",
         "git" : "https://github.com/MaciejUberna/BlogHttpRequestsTest.git"
@@ -43,7 +43,7 @@ export default [
         "start-date":"03.2019",
         "end-date":"12.2019",
         "date-interval": "[10 meses]",
-        "job" : "alumna (Udemy)",
+        "job-position" : "Alumna (Udemy)",
         "company":"Udemy (Internet)",
         "localization":"Internet",
         "job-desc": "Aplicación ficticia de pedidos de hamburguesas realizada en javascript y react router / redux.",
@@ -55,7 +55,7 @@ export default [
         "date-interval": "[4 meses]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "alumna (Udemy)",
+        "job-position" : "Alumna (Udemy)",
         "job-desc": "Creación de un esquema CSS 3.0 usando Sass y Gulp. Ejercicio de css grid. Realizado el esquema CSS de una empresa de venta de bienes raíces ficticia.",
         "git" : "https://github.com/MaciejUberna/Nexter"
     },
@@ -65,7 +65,7 @@ export default [
         "date-interval": "[3 meses]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "alumna (Udemy)",
+        "job-position" : "Alumna (Udemy)",
         "job-desc": "Creación de un esquema CSS 3.0 usando Sass y Gulp. Ejercicio de css 3.0 - flexbox. Realizado el esquema CSS 3.0 de una empresa hotelera ficticia.",
         "git":"https://github.com/MaciejUberna/Trillo"
     },
@@ -75,7 +75,7 @@ export default [
         "date-interval": "[6 meses]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "alumna (Udemy)",
+        "job-position" : "Alumna (Udemy)",
         "job-desc": "Creación de un esquema CSS 3.0 usando Sass y Gulp. Realicé el esquema CSS 3.0 de una compañía de viajes ficticia y algunas animaciones CSS en otder para hacer que la compañía se vea mejor.",
         "git":"https://github.com/MaciejUberna/Naturomaniacy"
     },
@@ -85,7 +85,7 @@ export default [
         "date-interval": "10.2015 - 03.2018 [29 meses]",
         "company":"StepStone Services Limitado.",
         "localization":"Varsovia",
-        "job":"Ingeniero de pruebas automatizadas",
+        "job-position":"Ingeniero de pruebas automatizadas",
         "job-desc":"Desarrollo de pruebas automatizadas para aplicaciones Android e  IOS.",
         "git":""
     },
@@ -95,7 +95,7 @@ export default [
         "date-interval": "[32 months]",
         "company":"Orange Poland",
         "localization":"Varsovia",
-        "job":"Ingeniero de pruebas manual y automatizado.",
+        "job-position":"Ingeniero de pruebas manual y automatizado.",
         "job-desc":"Probador de software móvil (Android) e Internet.",
         "git":""
     },
@@ -105,7 +105,7 @@ export default [
         "date-interval": "[48 months]",
         "company":"Orange Poland",
         "localization":"Varsovia",
-        "job":"Ingeniero de software de internet",
+        "job-position":"Ingeniero de software de internet",
         "job-desc":"Configuración de instalación de IVR - reconocimiento de voz (idioma polaco).",
         "git":""
     }

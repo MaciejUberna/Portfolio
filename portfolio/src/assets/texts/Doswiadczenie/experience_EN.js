@@ -34,7 +34,7 @@ export default [
         "end-date":"02.2020",
         "date-interval": "[2 mongths]",
         "company":"Udemy (Internet)",
-        "job-position" : "student (Udemy)",
+        "job-position" : "Student (Udemy)",
         "localization":"Internet",
         "job-desc": "3 test applications made with Ajax technology and React-Router-DOM",
         "git" : "https://github.com/MaciejUberna/BlogHttpRequestsTest.git"
@@ -43,7 +43,7 @@ export default [
         "start-date":"03.2019",
         "end-date":"12.2019",
         "date-interval": "[10 mongths]",
-        "job" : "student (Udemy)",
+        "job-position" : "Student (Udemy)",
         "company":"Udemy (Internet)",
         "localization":"Internet",
         "job-desc": "Fictional burger ordering application made in javascript and react router / redux",
@@ -55,7 +55,7 @@ export default [
         "date-interval": "[4 mongths]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "student (Udemy)",
+        "job-position" : "Student (Udemy)",
         "job-desc": "Creating CSS 3.0 scheme using Sass and Gulp. Exercising css grid. Done CSS scheme of fictional real estate selling company.",
         "git" : "https://github.com/MaciejUberna/Nexter"
     },
@@ -65,7 +65,7 @@ export default [
         "date-interval": "[3 mongths]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "student (Udemy)",
+        "job-position" : "Student (Udemy)",
         "job-desc": "Creating CSS 3.0 scheme using Sass and Gulp. Exercising css 3.0 - flexbox. Done CSS 3.0 scheme of fictional hotel trade company.",
         "git":"https://github.com/MaciejUberna/Trillo"
     },
@@ -75,7 +75,7 @@ export default [
         "date-interval": "[6 mongths]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job" : "student (Udemy)",
+        "job-position" : "Student (Udemy)",
         "job-desc": "Creating CSS 3.0 scheme using Sass and Gulp. Done CSS 3.0 scheme of fictional travel company and some CSS animations in otder to make company look nicer.",
         "git":"https://github.com/MaciejUberna/Naturomaniacy"
     },
@@ -85,7 +85,7 @@ export default [
         "date-interval": "10.2015 - 03.2018 [29 mongths]",
         "company":"StepStone Services Ltd.",
         "localization":"Warsaw",
-        "job":"Automated Tests Engineer",
+        "job-position":"Automated Tests Engineer",
         "job-desc":"Developing automated tests for Android and IOS applications.",
         "git":""
     },
@@ -95,7 +95,7 @@ export default [
         "date-interval": "[32 months]",
         "company":"Orange Poland",
         "localization":"Warsaw",
-        "job":"Manual and Automated Test Engineer",
+        "job-position":"Manual and Automated Test Engineer",
         "job-desc":"Mobile (Android) and Internet Software Tester",
         "git":""
     },
@@ -105,7 +105,7 @@ export default [
         "date-interval": "[48 months]",
         "company":"Orange Poland",
         "localization":"Warsaw",
-        "job":"Internet Software Engineer",
+        "job-position":"Internet Software Engineer",
         "job-desc":"IVR insalation configuring - voice recognition (polish language)",
         "git":""
     }
