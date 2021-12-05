@@ -45,7 +45,7 @@ const Doswiadczenie = () => {
     return (
         <div className={cls.Main}>
         <h2>{lctx.x.mainMenu[lang].job_exp}</h2>
-        <ol className={cls.Main_Container}>
+        <ol className={cls.Main_Container} reversed>
             {displayArr}
         </ol>
         </div>
