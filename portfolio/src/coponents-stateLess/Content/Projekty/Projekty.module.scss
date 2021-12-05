@@ -4,16 +4,19 @@
     width: 100%;
     height: auto;
     background-image: url(../../../assets/images/Projects/ksmonautaMotocykl.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
 
     & h2 {
-
+        margin-left: 1rem;
     }
 
     &_Container {
         width: 90%;;
         display: grid;
         margin-top: 2rem;
-        grid-template-columns: 30ch 80ch auto;
+        grid-template-columns: repeat(3,1fr);;
+        grid-column-gap: 25%;
 
         &_Name {
             color: $color-alert;
@@ -46,13 +49,12 @@
 
 }
 
-@media (max-width: $max-width-intermediate-res) {
+@media (max-width: 1607px) {
     .Main {
     
         &_Container {
-            display: grid;
-            margin-top: 2rem;
-            grid-template-columns: 30ch auto;
+            grid-template-columns: repeat(3,1fr);;
+            grid-column-gap: 10%;
 
             &_Cogs_Left {
                 margin-top: 33%;
