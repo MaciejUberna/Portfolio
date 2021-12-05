@@ -78,7 +78,7 @@ function App() {
           'xx': expXX
         },
         'conv': expConvert
-  })
+  });
 
   let routes = (
     <Switch>

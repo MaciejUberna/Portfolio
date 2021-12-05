@@ -4,7 +4,7 @@ export default [
         "end-date":"do teraz",
         "date-interval": "trwa",
         "company":"Muzofilia",
-        "job-position" : "Specjalista ds. promocji (regularna praca)",
+        "job-position" : "Specjalista ds. promocji (umowa o pracę)",
         "localization":"Internet",
         "job-desc": "Działalność promocyjna na rzecz szkoły muzycznej Muzofilia",
         "git" : ""       
