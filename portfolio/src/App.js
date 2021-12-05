@@ -36,12 +36,11 @@ import PJWSTKdiploma from './assets/images/Education/dyplomPJWSTK.jpg';
 function App() {
 
   const [myValue, setMyValue] = useState({
-        'language' : 'xx',
+        'language' : 'pl',
         'flag' : {
           'pl' : PL,
           'en' : EN,
           'es' : ES,
-          'xx' : Unknown
         }, 
         'languages' : {
           'pl' : 'Polski',
