@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2523797c.chunk.css",
+    "main.js": "/portfolio/static/js/main.9f727cd4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9f727cd4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.63bc93de.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.63bc93de.js.map",
+    "static/js/2.549b20cd.chunk.js": "/portfolio/static/js/2.549b20cd.chunk.js",
+    "static/js/2.549b20cd.chunk.js.map": "/portfolio/static/js/2.549b20cd.chunk.js.map",
+    "static/js/3.5590758b.chunk.js": "/portfolio/static/js/3.5590758b.chunk.js",
+    "static/js/3.5590758b.chunk.js.map": "/portfolio/static/js/3.5590758b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.2523797c.chunk.css.map": "/portfolio/static/css/main.2523797c.chunk.css.map",
+    "static/js/2.549b20cd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.549b20cd.chunk.js.LICENSE.txt",
+    "static/media/3zebatki.361bf7a6.svg": "/portfolio/static/media/3zebatki.361bf7a6.svg",
+    "static/media/Edukacja.module.scss": "/portfolio/static/media/Academics2.75166f31.jpg",
+    "static/media/KwadraturaTwarz.bb0b2226.jpg": "/portfolio/static/media/KwadraturaTwarz.bb0b2226.jpg",
+    "static/media/Doswiadczenie.module.scss": "/portfolio/static/media/Laptop2JobExperience.95532a10.jpg",
+    "static/media/dyplomPJWSTK.d80d9b53.jpg": "/portfolio/static/media/dyplomPJWSTK.d80d9b53.jpg",
+    "static/media/es.d4167f87.svg": "/portfolio/static/media/es.d4167f87.svg",
+    "static/media/gb.3b671736.svg": "/portfolio/static/media/gb.3b671736.svg",
+    "static/media/graduation-cap.b9f6f7bc.svg": "/portfolio/static/media/graduation-cap.b9f6f7bc.svg",
+    "static/media/istqb2015.0dead9f3.jpg": "/portfolio/static/media/istqb2015.0dead9f3.jpg",
+    "static/media/Projekty.module.scss": "/portfolio/static/media/ksmonautaMotocykl.78f03460.jpg",
+    "static/media/pl.3038582e.svg": "/portfolio/static/media/pl.3038582e.svg",
+    "static/media/xx.1257f28a.svg": "/portfolio/static/media/xx.1257f28a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63bc93de.js",
+    "static/js/2.549b20cd.chunk.js",
+    "static/css/main.2523797c.chunk.css",
+    "static/js/main.9f727cd4.chunk.js"
+  ]
+}
