@@ -15,35 +15,17 @@ const Edukacja = () => {
     const displayArr = [];
     for(let i=0;i<eduArr.length;i++){
         const displayElement = [];
-        let ctr = 0;
         for(let key in eduArr[i]) {
-            if (ctr===6) {
-                displayElement.push(
-                    <li
-                        key={i+key}
-                        className={cls.Main_Container_Diploma}
-                    >
-                        <p className={cls.Main_Container_Diploma_Title}>
-                            {key}
-                        </p>
-                        <img 
-                        src={eduArr[i][key]}
-                        />
-                    </li>
-                );
-            } else {
-                displayElement.push(
-                    <li
-                        key={i+key}
-                        
-                    >
-                        <img src={GrCap} className={cls.Main_Container_GrCap} /> 
-                        <span className={cls.Main_Container_Name}> {key} :</span> 
-                        <span className={cls.Main_Container_Desc}> {eduArr[i][key]} </span>
-                    </li>
-                )
-            }
-            ctr++;
+            displayElement.push(
+                <li
+                    key={i+key}
+                    
+                >
+                    <img src={GrCap} className={cls.Main_Container_GrCap} /> 
+                    <span className={cls.Main_Container_Name}> {key} :</span> 
+                    <span className={cls.Main_Container_Desc}> {eduArr[i][key]} </span>
+                </li>
+            )
         };
         displayArr.push(
             <ul key={i} className={cls.Main_Container_ul}>

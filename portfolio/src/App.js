@@ -57,17 +57,17 @@ function App() {
           'xx': ProjXX 
         },
         'education': {
-          'pl': [{...eduPL[0],'Certyfikat ISTQB':ISTQBcert},
-                  {...eduPL[1],'Dyplom Magistra': PJWSTKdiploma},
+          'pl': [{...eduPL[0]},
+                  {...eduPL[1]},
               ],
-          'en': [{...eduEN[0],'ISTQB certyficate':ISTQBcert},
-                  {...eduEN[1],"Master's degree": PJWSTKdiploma},
+          'en': [{...eduEN[0]},
+                  {...eduEN[1]},
             ],
-          'es': [{...eduES[0],'ISTQB certificado':ISTQBcert},
-                  {...eduES[1],'Maestría': PJWSTKdiploma},
+          'es': [{...eduES[0]},
+                  {...eduES[1]},
               ],
-          'xx': [{...eduXX[0],'ISTQB hurra!':ISTQBcert},
-                  {...eduXX[1],'Papier': PJWSTKdiploma},
+          'xx': [{...eduXX[0]},
+                  {...eduXX[1]},
           ]
         },
         'job_exp' : {
