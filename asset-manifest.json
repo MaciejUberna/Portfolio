@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.53dc1f44.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9f727cd4.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9f727cd4.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.8458f873.chunk.css",
+    "main.js": "/Portfolio/static/js/main.8258a392.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.8258a392.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.74fe0bf2.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.74fe0bf2.js.map",
-    "static/js/2.549b20cd.chunk.js": "/Portfolio/static/js/2.549b20cd.chunk.js",
-    "static/js/2.549b20cd.chunk.js.map": "/Portfolio/static/js/2.549b20cd.chunk.js.map",
+    "static/js/2.40e6c2d3.chunk.js": "/Portfolio/static/js/2.40e6c2d3.chunk.js",
+    "static/js/2.40e6c2d3.chunk.js.map": "/Portfolio/static/js/2.40e6c2d3.chunk.js.map",
     "static/js/3.5590758b.chunk.js": "/Portfolio/static/js/3.5590758b.chunk.js",
     "static/js/3.5590758b.chunk.js.map": "/Portfolio/static/js/3.5590758b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.53dc1f44.chunk.css.map": "/Portfolio/static/css/main.53dc1f44.chunk.css.map",
-    "static/js/2.549b20cd.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.549b20cd.chunk.js.LICENSE.txt",
+    "static/css/main.8458f873.chunk.css.map": "/Portfolio/static/css/main.8458f873.chunk.css.map",
+    "static/js/2.40e6c2d3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.40e6c2d3.chunk.js.LICENSE.txt",
     "static/media/3zebatki.361bf7a6.svg": "/Portfolio/static/media/3zebatki.361bf7a6.svg",
-    "static/media/Edukacja.module.scss": "/Portfolio/static/media/Academics2.75166f31.jpg",
+    "static/media/Florish.9373fa99.mp4": "/Portfolio/static/media/Florish.9373fa99.mp4",
     "static/media/KwadraturaTwarz.bb0b2226.jpg": "/Portfolio/static/media/KwadraturaTwarz.bb0b2226.jpg",
     "static/media/Doswiadczenie.module.scss": "/Portfolio/static/media/Laptop2JobExperience.95532a10.jpg",
     "static/media/dyplomPJWSTK.d80d9b53.jpg": "/Portfolio/static/media/dyplomPJWSTK.d80d9b53.jpg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.74fe0bf2.js",
-    "static/js/2.549b20cd.chunk.js",
-    "static/css/main.53dc1f44.chunk.css",
-    "static/js/main.9f727cd4.chunk.js"
+    "static/js/2.40e6c2d3.chunk.js",
+    "static/css/main.8458f873.chunk.css",
+    "static/js/main.8258a392.chunk.js"
   ]
 }
