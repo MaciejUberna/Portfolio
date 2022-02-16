@@ -84,7 +84,7 @@ function App() {
       <Route path="/education" render={(props) => <Edukacja {...props}/>} />
       <Route path='/experience' render={(props) => <Doswiadczenie {...props}/>} />
       <Route path='/projects' render={(props) => <Projekty {...props}/>} />
-      <Route path="/" exact component={Edukacja} />
+      <Route path="/" exact component={Projekty} />
       <Redirect to="/" />
     </Switch>
   );
