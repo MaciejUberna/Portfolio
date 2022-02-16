@@ -34,7 +34,7 @@ export default [
         "end-date":"02.2020",
         "date-interval": "[2 mongths]",
         "company":"Udemy (Internet)",
-        "job-position" : "Student (Udemy)",
+        "job-position" : "Udemy attendee",
         "localization":"Internet",
         "job-desc": "3 test applications made with Ajax technology and React-Router-DOM",
         "git" : "https://github.com/MaciejUberna/BlogHttpRequestsTest.git"
@@ -43,7 +43,7 @@ export default [
         "start-date":"03.2019",
         "end-date":"12.2019",
         "date-interval": "[10 mongths]",
-        "job-position" : "Student (Udemy)",
+        "job-position" : "Udemy attendee",
         "company":"Udemy (Internet)",
         "localization":"Internet",
         "job-desc": "Fictional burger ordering application made in javascript and react router / redux",
@@ -55,7 +55,7 @@ export default [
         "date-interval": "[4 mongths]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job-position" : "Student (Udemy)",
+        "job-position" : "Udemy attendee",
         "job-desc": "Creating CSS 3.0 scheme using Sass and Gulp. Exercising css grid. Done CSS scheme of fictional real estate selling company.",
         "git" : "https://github.com/MaciejUberna/Nexter"
     },
@@ -65,7 +65,7 @@ export default [
         "date-interval": "[3 mongths]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job-position" : "Student (Udemy)",
+        "job-position" : "Udemy attendee",
         "job-desc": "Creating CSS 3.0 scheme using Sass and Gulp. Exercising css 3.0 - flexbox. Done CSS 3.0 scheme of fictional hotel trade company.",
         "git":"https://github.com/MaciejUberna/Trillo"
     },
@@ -75,7 +75,7 @@ export default [
         "date-interval": "[6 mongths]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job-position" : "Student (Udemy)",
+        "job-position" : "Udemy attendee",
         "job-desc": "Creating CSS 3.0 scheme using Sass and Gulp. Done CSS 3.0 scheme of fictional travel company and some CSS animations in otder to make company look nicer.",
         "git":"https://github.com/MaciejUberna/Naturomaniacy"
     },

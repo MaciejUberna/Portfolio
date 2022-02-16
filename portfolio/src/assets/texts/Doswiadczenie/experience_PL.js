@@ -34,7 +34,7 @@ export default [
         "end-date":"02.2020",
         "date-interval": "[2 mies.]",
         "company":"Udemy (Internet)",
-        "job-position" : "student (Udemy)",
+        "job-position" : "Kursant udemy",
         "localization":"Internet",
         "job-desc": "3 aplikacje testowe do technologii Ajax i React-Router-DOM",
         "git" : "https://github.com/MaciejUberna/BlogHttpRequestsTest.git"
@@ -43,7 +43,7 @@ export default [
         "start-date":"03.2019",
         "end-date":"12.2019",
         "date-interval": "[10 mies.]",
-        "job-position" : "student (Udemy)",
+        "job-position" : "Kursant udemy",
         "company":"Udemy (Internet)",
         "localization":"Internet",
         "job-desc": "Fikcyjna aplikacja do zamawiania burgerów napisana w javascript react router / redux",
@@ -55,7 +55,7 @@ export default [
         "date-interval": "[4 mies.]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job-position" : "student (Udemy)",
+        "job-position" : "Kursant udemy",
         "job-desc": "Tworzenie szablonu www w css 3.0 , Sass i Gulp. Ćwiczenia z css 3.0 - css grid, szablon fikcyjnej strony sprzedaży nieruchomości. ",
         "git" : "https://github.com/MaciejUberna/Nexter"
     },
@@ -65,7 +65,7 @@ export default [
         "date-interval": "[3 mies.]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job-position" : "student (Udemy)",
+        "job-position" : "Kursant udemy",
         "job-desc": "Tworzenie szablonu www w css 3.0 , Sass i Gulp. Ćwiczenia z css 3.0 - flexbox, szablon fikcyjnej strony wynajmu pokoi hotelowych",
         "git":"https://github.com/MaciejUberna/Trillo"
     },
@@ -75,7 +75,7 @@ export default [
         "date-interval": "[6 mies.]",
         "company":"Udemy (Internet)",
         "localization":"Internet",
-        "job-position" : "student (Udemy)",
+        "job-position" : "Kursant udemy",
         "job-desc": "Tworzenie szablonu www w css 3.0 , Sass i Gulp. Szablon css www fikcyjnej firmy turystycznej, animacje w css.",
         "git":"https://github.com/MaciejUberna/Naturomaniacy"
     },
