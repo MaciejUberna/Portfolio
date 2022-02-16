@@ -1,25 +1,30 @@
 @import '../../../sass/abstracts/variables.scss';
 
 .Main {
-    width: 100vw;
-    height: auto;
-
-    background-image: url(../../../assets/images/Education/Academics2.jpg);
-    background-size: cover;
+    & video {
+        position: fixed;
+        height: 125vh;
+        width: auto;
+    }
 
     & h2 {
-        margin-left: 1rem;
+        margin-left: 1.5rem;
         color: $color-tertiary;
+        z-index: 100;
+        position: relative;
     }
 
     &_Container {
         width: 100%;
+        z-index: 100;
+        position: absolute;
         display: grid;
         grid-template-columns: repeat(auto-fit,min-max(15rem,1fr));
 
         &_ul {
+            margin-top: $text-small;
             text-decoration: none;
-            list-style-type: none;
+            color: $color-tertiary;
         }
 
         &_Name {
@@ -43,11 +48,6 @@
                 align-content: center;
                 color: $color-tertiary;
             }
-
-            & img {
-                width: 40rem;
-                height: auto;
-            }
         }
 
     }
@@ -61,29 +61,6 @@
             flex-direction: column;
             align-content: center;
             justify-content: flex-start;
-            
-            &_Diploma  {
-                & img {
-                    width: 27rem;
-                }
-            }
-        }
-    }
-}
-
-@media (max-width: $max-width-small-res) {
-    .Main {
-        &_Container {
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-content: flex-start;
-            
-            &_Diploma  {
-                & img {
-                    width: 20rem;
-                }
-            }
         }
     }
 }

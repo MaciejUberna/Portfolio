@@ -1,5 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react';
 import languageContext from '../../../mainStates/language/language-context';
+import VideoSource from '../../../assets/videos/Florish.mp4';
 import GrCap from '../../../assets/images/Education/graduation-cap.svg';
 import cls from './Edukacja.module.scss';
 
@@ -13,33 +14,40 @@ const Edukacja = () => {
 
     const eduArr = lctx.x.education[lang];
     const displayArr = [];
+
     for(let i=0;i<eduArr.length;i++){
         const displayElement = [];
-        for(let key in eduArr[i]) {
+        const keys = Object.keys(eduArr[i]);
+        keys.forEach((key) => {
             displayElement.push(
-                <li
+                <div
                     key={i+key}
                     
                 >
                     <img src={GrCap} className={cls.Main_Container_GrCap} /> 
                     <span className={cls.Main_Container_Name}> {key} :</span> 
                     <span className={cls.Main_Container_Desc}> {eduArr[i][key]} </span>
-                </li>
+                </div>
             )
-        };
+        });
         displayArr.push(
-            <ul key={i} className={cls.Main_Container_ul}>
+            <li key={i} className={cls.Main_Container_ul}>
                 {displayElement}
-            </ul>
+            </li>
         );
     };
 
     return (
         <div className={`${cls.Main}`}>
+            <video loop autoPlay muted>
+                <source src={VideoSource} type="video/mp4"/>
+                Your browser does not support the video tag.
+            </video>
+            <p> &nbsp; </p>
             <h2>{lctx.x.mainMenu[lang].education}</h2>
-            <div className={cls.Main_Container}>
+            <ol className={cls.Main_Container} reversed>
                 {displayArr}
-            </div>
+            </ol>
         </div>
     );
 }
