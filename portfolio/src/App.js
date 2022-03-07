@@ -7,12 +7,12 @@ import Edukacja from './coponents-stateLess/Content/Edukacja/Edukacja';
 import Doswiadczenie from './coponents-stateLess/Content/Doswiadczenie/Doswiadczenie';
 import Projekty from './coponents-stateLess/Content/Projekty/Projekty';
 import LanguageContext from './mainStates/language/language-context';
-import {mainInfo, mainMenu} from './assets/texts/UI/ui';
+import {mainInfo, mainMenu, licenseInfo} from './assets/texts/UI/ui';
 
 import {ReactComponent as PL} from './assets/images/flags/pl.svg';
 import {ReactComponent as EN} from './assets/images/flags/gb.svg';
 import {ReactComponent as ES} from './assets/images/flags/es.svg';
-import {ReactComponent as Unknown} from './assets/images/flags/xx.svg';
+// import {ReactComponent as Unknown} from './assets/images/flags/xx.svg';
 
 import ProjPL from './assets/texts/Projekty/projects_PL';
 import ProjEN from './assets/texts/Projekty/projects_EN';
@@ -30,8 +30,8 @@ import expES from './assets/texts/Doswiadczenie/experience_ES';
 import expXX from './assets/texts/Doswiadczenie/experience_XX';
 import expConvert from './assets/texts/Doswiadczenie/conversion';
 
-import ISTQBcert from './assets/images/Education/istqb2015.jpg';
-import PJWSTKdiploma from './assets/images/Education/dyplomPJWSTK.jpg';
+/*import ISTQBcert from './assets/images/Education/istqb2015.jpg';
+import PJWSTKdiploma from './assets/images/Education/dyplomPJWSTK.jpg'; */
 
 function App() {
 
@@ -50,6 +50,7 @@ function App() {
         },
         'mainInfo' : mainInfo,
         'mainMenu' : mainMenu,
+        'licenseInfo' : licenseInfo,
         'projects' : {
           'pl': ProjPL,
           'en': ProjEN,
@@ -57,18 +58,10 @@ function App() {
           'xx': ProjXX 
         },
         'education': {
-          'pl': [{...eduPL[0]},
-                  {...eduPL[1]},
-              ],
-          'en': [{...eduEN[0]},
-                  {...eduEN[1]},
-            ],
-          'es': [{...eduES[0]},
-                  {...eduES[1]},
-              ],
-          'xx': [{...eduXX[0]},
-                  {...eduXX[1]},
-          ]
+          'pl': eduPL,
+          'en': eduEN,
+          'es': eduES,
+          'xx': eduXX,
         },
         'job_exp' : {
           'pl': expPL,
