@@ -1,34 +1,31 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8458f873.chunk.css",
-    "main.js": "/Portfolio/static/js/main.8258a392.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.8258a392.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.06e0f36c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.91946976.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.91946976.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.74fe0bf2.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.74fe0bf2.js.map",
-    "static/js/2.40e6c2d3.chunk.js": "/Portfolio/static/js/2.40e6c2d3.chunk.js",
-    "static/js/2.40e6c2d3.chunk.js.map": "/Portfolio/static/js/2.40e6c2d3.chunk.js.map",
+    "static/js/2.90fc8889.chunk.js": "/Portfolio/static/js/2.90fc8889.chunk.js",
+    "static/js/2.90fc8889.chunk.js.map": "/Portfolio/static/js/2.90fc8889.chunk.js.map",
     "static/js/3.5590758b.chunk.js": "/Portfolio/static/js/3.5590758b.chunk.js",
     "static/js/3.5590758b.chunk.js.map": "/Portfolio/static/js/3.5590758b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.8458f873.chunk.css.map": "/Portfolio/static/css/main.8458f873.chunk.css.map",
-    "static/js/2.40e6c2d3.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.40e6c2d3.chunk.js.LICENSE.txt",
+    "static/css/main.06e0f36c.chunk.css.map": "/Portfolio/static/css/main.06e0f36c.chunk.css.map",
+    "static/js/2.90fc8889.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.90fc8889.chunk.js.LICENSE.txt",
     "static/media/3zebatki.361bf7a6.svg": "/Portfolio/static/media/3zebatki.361bf7a6.svg",
     "static/media/Florish.9373fa99.mp4": "/Portfolio/static/media/Florish.9373fa99.mp4",
     "static/media/KwadraturaTwarz.bb0b2226.jpg": "/Portfolio/static/media/KwadraturaTwarz.bb0b2226.jpg",
     "static/media/Doswiadczenie.module.scss": "/Portfolio/static/media/Laptop2JobExperience.95532a10.jpg",
-    "static/media/dyplomPJWSTK.d80d9b53.jpg": "/Portfolio/static/media/dyplomPJWSTK.d80d9b53.jpg",
     "static/media/es.d4167f87.svg": "/Portfolio/static/media/es.d4167f87.svg",
     "static/media/gb.3b671736.svg": "/Portfolio/static/media/gb.3b671736.svg",
     "static/media/graduation-cap.b9f6f7bc.svg": "/Portfolio/static/media/graduation-cap.b9f6f7bc.svg",
-    "static/media/istqb2015.0dead9f3.jpg": "/Portfolio/static/media/istqb2015.0dead9f3.jpg",
     "static/media/Projekty.module.scss": "/Portfolio/static/media/ksmonautaMotocykl.78f03460.jpg",
-    "static/media/pl.3038582e.svg": "/Portfolio/static/media/pl.3038582e.svg",
-    "static/media/xx.1257f28a.svg": "/Portfolio/static/media/xx.1257f28a.svg"
+    "static/media/pl.3038582e.svg": "/Portfolio/static/media/pl.3038582e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.74fe0bf2.js",
-    "static/js/2.40e6c2d3.chunk.js",
-    "static/css/main.8458f873.chunk.css",
-    "static/js/main.8258a392.chunk.js"
+    "static/js/2.90fc8889.chunk.js",
+    "static/css/main.06e0f36c.chunk.css",
+    "static/js/main.91946976.chunk.js"
   ]
 }
