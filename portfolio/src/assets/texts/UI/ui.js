@@ -59,3 +59,26 @@ export const mainMenu = {
         'lang' : 'Lorem...'       
     }
 };
+
+export const licenseInfo = {
+    'pl' : {
+        'education' : 'Wideo w tle na licencji CC BY 3.0, pobrane z ',
+        'job-exp' : 'Obraz tła na licencji Pixabay License pobrany z ',
+        'projects' : 'Obraz tła na licencji Pixabay License pobrany z '
+    },
+    'en' : {
+        'education' : 'Background video licensed with CC BY 3.0 license, downloaded from ',
+        'job-exp' : 'Background picture licensed with Pixabay License downloaded from ',
+        'projects' : 'Background picture licensed Pixabay License downloaded from '       
+    },
+    'es' : {
+        'education' : 'Video de fondo sin licencia CC BY 3.0, descargado de ',
+        'job-exp' : 'Imagen de fondo sin licencia de Pixabay Licencia, descargada de ',
+        'projects' : 'Imagen de fondo sin licencia de Pixabay Licencia descargada de '
+    },
+    'xx' : {
+        'education' : 'Background video licensed with CC BY 3.0 license, downloaded from ',
+        'job-exp' : 'Background picture licensed with Pixabay License downloaded from ',
+        'projects' : 'Background picture licensed Pixabay License downloaded from '       
+    }
+}
