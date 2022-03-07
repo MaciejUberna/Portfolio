@@ -10,18 +10,16 @@
     & h2 {
         margin-left: 1.5rem;
         color: $color-tertiary;
-        z-index: 100;
         position: relative;
     }
 
     &_Container {
         width: 100%;
-        z-index: 100;
         position: absolute;
         display: grid;
         grid-template-columns: repeat(auto-fit,min-max(15rem,1fr));
 
-        &_ul {
+        &_ol {
             margin-top: $text-small;
             text-decoration: none;
             color: $color-tertiary;
@@ -41,15 +39,18 @@
             width: 1.5rem;
             filter: $filter-main;
         }
+    }
 
-        &_Diploma  {
-            &_Title {
-                font-size: $text-small;
-                align-content: center;
-                color: $color-tertiary;
-            }
+    & p {
+        position: absolute;
+        margin-left: 2.5rem;
+        margin-top: 40vh;
+        z-index: 150;
+        color: $color-tertiary;
+
+        & a {
+            color: $color-alert;
         }
-
     }
 
 }

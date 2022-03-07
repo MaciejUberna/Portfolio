@@ -31,7 +31,7 @@ const Edukacja = () => {
             )
         });
         displayArr.push(
-            <li key={i} className={cls.Main_Container_ul}>
+            <li key={i} className={cls.Main_Container_ol}>
                 {displayElement}
             </li>
         );
@@ -48,6 +48,10 @@ const Edukacja = () => {
             <ol className={cls.Main_Container} reversed>
                 {displayArr}
             </ol>
+            <p>
+                {lctx.x.licenseInfo[lang].education}
+                <a target="_blank" href="https://videvo.net">videvo.net</a> . 
+            </p>
         </div>
     );
 }
