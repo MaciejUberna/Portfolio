@@ -1,14 +1,16 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import Photo from '../../UI/MainPhoto/Photo';
 import Info from '../../UI/MainInfo/MainInfo';
 import PropTypes from 'prop-types';
 import classes from './Toolbar.module.scss';
-import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 import Auxiliary from '../../../hoc/Auxiliary/Auxiliary';
+import LanguageContext from '../../../mainStates/language/language-context';
  
 const Toolbar = props => {
+    const lctx = useContext(LanguageContext);
+    let Flag = lctx.x.flag[lctx.x.language];
 
     return (
         <Auxiliary>
@@ -31,9 +33,12 @@ const Toolbar = props => {
                 <nav className={classes.DesktopOnly}>
                     <NavigationItems languageSwitcherType="dropdown" />
                 </nav>
-                <div className={classes.Logo}>
-                    <Logo />
-                </div>
+                    {Flag
+                    ?
+                        <Flag className={classes.Svg}/>
+                    : 
+                        null
+                    }
             </header>
         </Auxiliary>
     );

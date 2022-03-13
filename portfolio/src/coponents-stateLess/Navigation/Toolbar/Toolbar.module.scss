@@ -81,7 +81,7 @@
         height: 100%;
     }
 
-    & .Logo {
+    & .Svg {
         display: none;
     }
 }
@@ -117,8 +117,8 @@
         top: 40vh;
     }
 
-    .Toolbar .Logo {
-        height: 100%;
+    .Toolbar .Svg {
+        height: 60%;
         display: block;
     } 
 
