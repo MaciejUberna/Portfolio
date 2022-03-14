@@ -16,8 +16,8 @@ const sideDrawer = (props) => {
         <Auxiliary>
         <Backdrop show={props.open} clicked={props.closed}/>
         <div className={attachedClasses.join(' ')} onClick={props.closed}>
-            <div className={classes.Logo}>
-                <Logo/>
+            <div className={classes.Name}>
+                Portfolio &amp; CV
             </div>
             <nav>
                 <NavigationItems languageSwitcherType="buttons"/>
