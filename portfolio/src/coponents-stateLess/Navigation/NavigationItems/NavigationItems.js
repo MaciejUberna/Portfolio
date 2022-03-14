@@ -11,19 +11,9 @@ import LanguageContext from '../../../mainStates/language/language-context';
 const NavigationItems = (props) => {
     const lctx = useContext(LanguageContext);
     let languageSwitcher = null;
-    const [edu, setEdu] = useState(lctx.x.mainMenu[lctx.x.language].education);
-    const [exp, setExp] = useState(lctx.x.mainMenu[lctx.x.language].job_exp);
-    const [prj,setPrj] = useState(lctx.x.mainMenu[lctx.x.language].projects);
-
-    useEffect(
-        () => {
-            setEdu(lctx.x.mainMenu[lctx.x.language].education);
-            setExp(lctx.x.mainMenu[lctx.x.language].job_exp);
-            setPrj(lctx.x.mainMenu[lctx.x.language].projects);
-            //console.log('Language: ',lctx.x.language);
-        },
-        [lctx.x.language]
-    );
+    const edu = lctx.x.mainMenu[lctx.x.language].education;
+    const exp = lctx.x.mainMenu[lctx.x.language].job_exp;
+    const prj = lctx.x.mainMenu[lctx.x.language].projects;
 
     if(props.languageSwitcherType === 'dropdown') {
         languageSwitcher = (<LanguageDropdown/>);
