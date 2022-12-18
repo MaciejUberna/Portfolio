@@ -24,10 +24,9 @@ const Projekty = () => {
     const prjArr = lctx.x.projects[lang];
     const displayArr = [];
     for(let i=0;i<prjArr.length;i++){
-        let ctr=0;
         const displayElement = [];
         for(let key in prjArr[i]) {
-            if(ctr===4) {
+            if(key==='Link' || key==='Enlace') {
                 displayElement.push(
                     <li  
                         key={i+key}
@@ -44,27 +43,31 @@ const Projekty = () => {
                     </li>
                 );
             };
-            ctr++;
         };
         displayArr.push(
-            <div key={i} className={cls.Main_Container}>
-                <object key={i+'gg'}
-                    className={cls.Main_Container_Cogs_Left} 
-                    type="image/svg+xml" 
-                    data={Tryby}>
-                    svg-animation
-                </object>
-                <ol key={i+'xx'}>
-                    {displayElement}
-                </ol>
-                <object 
-                    key={i+'yy'}
-                    className={cls.Main_Container_Cogs_Right}
-                    type="image/svg+xml" 
-                    data={Tryby}>
-                    svg-animation
-                </object>
-            </div>
+                    <div key={i} className={cls.Main_Container}>
+                        <object key={i+'gg'}
+                            className={cls.Main_Container_Cogs_Left} 
+                            type="image/svg+xml" 
+                            data={Tryby}>
+                            svg-animation
+                        </object>
+                        <ol start={i+1}
+                        key={i+'zzz'}>
+                            <li>
+                                <ol second={1} key={i+'xx'}>
+                                    {displayElement}
+                                </ol>
+                            </li>
+                        </ol>
+                        <object 
+                            key={i+'yy'}
+                            className={cls.Main_Container_Cogs_Right}
+                            type="image/svg+xml" 
+                            data={Tryby}>
+                            svg-animation
+                        </object>
+                    </div>
         );
     };
 

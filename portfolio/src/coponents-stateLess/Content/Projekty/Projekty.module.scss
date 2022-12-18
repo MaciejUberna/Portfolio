@@ -18,6 +18,24 @@
         grid-template-columns: repeat(3,1fr);;
         grid-column-gap: 25%;
 
+        & ol[start=""] {
+            counter-reset: section var(--start); 
+        }
+
+        & ol>li {
+            counter-reset: section;
+            list-style-type: decimal-leading-zero;
+        }
+
+        & ol>li>ol>li {
+            counter-increment: item;
+            list-style-type: decimal;
+        }
+
+        & ol>li>ol>li::before { 
+            content: counter(item, '.'); 
+        }
+
         &_Name {
             color: $color-alert;
         }
