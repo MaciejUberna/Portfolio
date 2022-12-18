@@ -52,7 +52,7 @@ const Projekty = () => {
                             data={Tryby}>
                             svg-animation
                         </object>
-                        <ol start={i+1}
+                        <ol start={prjArr.length - i}
                         key={i+'zzz'}>
                             <li>
                                 <ol second={1} key={i+'xx'}>
