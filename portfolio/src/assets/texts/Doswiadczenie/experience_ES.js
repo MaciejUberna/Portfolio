@@ -1,8 +1,18 @@
 export default [
     {
+        "start-date":"09.2022",
+        "end-date":"01.2023",
+        "date-interval": "[4 meses]",
+        "company":"Laboratorio de Nuevo Ethos",
+        "job-position" : "",
+        "localization":"Universidad Tecnológica de Varsovia",
+        "job-desc": "Elegir un modelo estadístico para el reconocimiento de emociones y preparación de analistas.",
+        "git" : ""       
+    },
+    {
         "start-date":"12.2021",
-        "end-date":"continúa...",
-        "date-interval": "continúa...",
+        "end-date":"06.2022",
+        "date-interval": "[7 meses]",
         "company":"Muzofilia",
         "job-position" : "Especialista en promoción (contrato de empleo)",
         "localization":"Internet",

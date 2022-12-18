@@ -1,8 +1,18 @@
 export default [
     {
+        "start-date":"09.2022",
+        "end-date":"01.2023",
+        "date-interval": "[4 mies.]",
+        "company":"Laboratorjum Nowego Etosu",
+        "job-position" : "",
+        "localization":"Politechnika Warszawska",
+        "job-desc": "Wybór modelu statystycznego rozpoznającego emocje i analityki.",
+        "git" : ""       
+    },
+    {
         "start-date":"12.2021",
-        "end-date":"do teraz",
-        "date-interval": "trwa...",
+        "end-date":"06.2022",
+        "date-interval": "[7 mies.]",
         "company":"Muzofilia",
         "job-position" : "Specjalista ds. promocji (umowa o pracę)",
         "localization":"Internet",

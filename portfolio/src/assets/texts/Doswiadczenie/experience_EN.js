@@ -1,8 +1,18 @@
 export default [
     {
+        "start-date":"09.2022",
+        "end-date":"01.2023",
+        "date-interval": "[4 months]",
+        "company":"The New Ethos Lab",
+        "job-position" : "",
+        "localization":"Warsaw University of Technology",
+        "job-desc": "Choosing statistical model for emotion detection and preparing analytics.",
+        "git" : ""       
+    },
+    {
         "start-date":"12.2021",
         "end-date":"continues...",
-        "date-interval": "continues...",
+        "date-interval": "[7 months]",
         "company":"Muzofilia",
         "job-position" : "Marketing specialist (contract of employment)",
         "localization":"Internet",
