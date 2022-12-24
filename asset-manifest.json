@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.734b1b8b.chunk.css",
-    "main.js": "/Portfolio/static/js/main.f1fe73e2.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.f1fe73e2.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.019bfc73.chunk.css",
+    "main.js": "/Portfolio/static/js/main.11db9fe8.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.11db9fe8.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.74fe0bf2.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.74fe0bf2.js.map",
     "static/js/2.c5c7abe1.chunk.js": "/Portfolio/static/js/2.c5c7abe1.chunk.js",
@@ -10,22 +10,22 @@
     "static/js/3.5590758b.chunk.js": "/Portfolio/static/js/3.5590758b.chunk.js",
     "static/js/3.5590758b.chunk.js.map": "/Portfolio/static/js/3.5590758b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.734b1b8b.chunk.css.map": "/Portfolio/static/css/main.734b1b8b.chunk.css.map",
+    "static/css/main.019bfc73.chunk.css.map": "/Portfolio/static/css/main.019bfc73.chunk.css.map",
     "static/js/2.c5c7abe1.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.c5c7abe1.chunk.js.LICENSE.txt",
     "static/media/3zebatki.361bf7a6.svg": "/Portfolio/static/media/3zebatki.361bf7a6.svg",
     "static/media/Florish.9373fa99.mp4": "/Portfolio/static/media/Florish.9373fa99.mp4",
-    "static/media/KwadraturaTwarz.bb0b2226.jpg": "/Portfolio/static/media/KwadraturaTwarz.bb0b2226.jpg",
     "static/media/Doswiadczenie.module.scss": "/Portfolio/static/media/Laptop2JobExperience.95532a10.jpg",
     "static/media/es.d4167f87.svg": "/Portfolio/static/media/es.d4167f87.svg",
     "static/media/gb.3b671736.svg": "/Portfolio/static/media/gb.3b671736.svg",
     "static/media/graduation-cap.b9f6f7bc.svg": "/Portfolio/static/media/graduation-cap.b9f6f7bc.svg",
     "static/media/Projekty.module.scss": "/Portfolio/static/media/ksmonautaMotocykl.78f03460.jpg",
+    "static/media/m1.5ee3d364.jpg": "/Portfolio/static/media/m1.5ee3d364.jpg",
     "static/media/pl.3038582e.svg": "/Portfolio/static/media/pl.3038582e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.74fe0bf2.js",
     "static/js/2.c5c7abe1.chunk.js",
-    "static/css/main.734b1b8b.chunk.css",
-    "static/js/main.f1fe73e2.chunk.js"
+    "static/css/main.019bfc73.chunk.css",
+    "static/js/main.11db9fe8.chunk.js"
   ]
 }
